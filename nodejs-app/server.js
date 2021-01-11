@@ -4,8 +4,7 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World from pod: ' +localhost);
-####process.env.HOSTNAME + '\n')
+  res.send('Hello World from pod: ' +process.env.HOSTNAME + '\n');
 });
 
 app.listen(8080, function () {
